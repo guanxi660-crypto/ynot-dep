@@ -11,3 +11,5 @@ RUN apk update && apk --no-cache add openssl bash curl &&\
     pip install -r requirements.txt
     
 CMD ["python3", "app.py"]
+
+# image renamed to ynot
